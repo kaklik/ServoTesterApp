@@ -24,9 +24,6 @@ The app has three modes:
 
 The indicated angle range is: 0° to 180°, but the actual servo angle may differ, because not every servo has a 180° range. 
 
-## Installing
-
-Drop the `servotester.fap` from `./dist` into `/ext/apps/GPIO/` on the flipper. 
 
 ## Building
 
@@ -34,4 +31,9 @@ Install [uFBT - micro Flipper Build Tool](https://github.com/flipperdevices/flip
 
 - Clone this git repository
 - cd to `ServoTesterApp` content.
-- run `ufbt && ufbt launch` with flipper connected
+- run `ufbt && ufbt launch` with flipper connected. It automatically installs the compiled application into flipper zero.
+
+## Installing
+
+Drop the compiled `servotesterapp.fap` from `./dist` into `/ext/apps/GPIO/` on the flipper. 
+
