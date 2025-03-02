@@ -2,7 +2,7 @@
 
 https://user-images.githubusercontent.com/8887221/228034391-aa9df44c-dcf7-4999-9d22-590cc7ac0392.mp4
 
-This app aims to replicate the behavior of a standard RC servo tester. You can read more about it in [this blog](https://mhasbini.com/blog/servo-tester-flipper-zero.html)!
+This app aims to replicate the behavior of a standard [RC servo](https://en.wikipedia.org/wiki/Servo_(radio_control)) tester, by replicating a [PWM RC servo signal](https://en.wikipedia.org/wiki/Servo_control). You can read more about it in [this blog](https://mhasbini.com/blog/servo-tester-flipper-zero.html)!
 
 ## Usage
 
@@ -31,7 +31,7 @@ Install [uFBT - micro Flipper Build Tool](https://github.com/flipperdevices/flip
 
 - Clone this git repository
 - cd to `ServoTesterApp` content.
-- run `ufbt && ufbt launch` with flipper connected. It automatically installs the compiled application into flipper zero.
+- run `ufbt && ufbt launch` with flipper connected. It automatically installs the compiled application into Flipper Zero.
 
 ## Installing
 
