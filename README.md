@@ -6,7 +6,7 @@ This app aims to replicate the behavior of a standard [RC servo](https://en.wiki
 
 ## Usage
 
-- Connect the Servo PWM input to `A7` Flipper Zero in.
+- Connect the Servo PWM input to **A7** Flipper Zero in.
 - Enable 5V output in the GPIO menu or plug-in USB-C charging cable. (If you're supplying power from an external power source, make sure it has common ground with the flipper GND)
 - Start the ServoTester app
 - Test different servo positions
@@ -30,10 +30,10 @@ The indicated angle range is: 0° to 180°, but the actual servo angle may diffe
 Install [uFBT - micro Flipper Build Tool](https://github.com/flipperdevices/flipperzero-ufbt) to get a toolkit for building flipper zero applications. 
 
 - Clone this git repository
-- cd to `ServoTesterApp` content.
-- run `ufbt && ufbt launch` with flipper connected. It automatically installs the compiled application into Flipper Zero.
+- cd to *ServoTesterApp* content.
+- run *ufbt && ufbt launch* with flipper connected. It automatically installs the compiled application into Flipper Zero.
 
 ## Installing
 
-Drop the compiled `servotesterapp.fap` from `./dist` into `/ext/apps/GPIO/` on the flipper. 
+Drop the compiled *servotesterapp.fap* from *./dist* into */ext/apps/GPIO/* on the flipper. 
 
